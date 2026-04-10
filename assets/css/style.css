@@ -14,7 +14,7 @@
     --card-bg-color: #ffffff;
     
     /* Fonts */
-    --font-heading: 'Gaegu', sans-serif; 
+    --font-heading: 'Goudy Bookletter 1911', serif;
     --font-body: 'Gaegu', sans-serif;
 }
 
@@ -70,9 +70,10 @@ header {
 header h1 {
     font-family: var(--font-heading);
     font-size: 4rem;
-    font-weight: 700;
+    font-weight: 400;
+    text-transform: uppercase; 
     margin-bottom: 15px;
-    letter-spacing: 1px;
+    letter-spacing: 2px; 
 }
 
 header p {
@@ -148,11 +149,10 @@ nav ul li a:hover::after {
 .section h2 {
     text-align: center;
     font-family: var(--font-heading);
+    text-transform: uppercase; /* Đảm bảo dòng này là uppercase */
     font-size: 3rem;
-    font-weight: 700;
-    margin-bottom: 70px;
+    margin-bottom: 60px;
     position: relative;
-    color: var(--primary-color);
 }
 
 .section h2::after {
