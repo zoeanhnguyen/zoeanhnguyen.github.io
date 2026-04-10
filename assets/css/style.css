@@ -31,10 +31,11 @@ html {
 
 body {
     font-family: var(--font-body);
-    font-weight: 400; /* Độ dày vừa phải */
-    line-height: 1.6;
-    letter-spacing: 0; /* Reset lại về 0 vì Nunito khoảng cách đã đẹp sẵn */
-    ...
+    font-size: 17px;       
+    font-weight: 400;      
+    line-height: 1.7;      
+    color: var(--dark-text-color);
+    -webkit-font-smoothing: antialiased; 
 }
 
 .container {
