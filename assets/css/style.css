@@ -85,10 +85,12 @@ header p {
 /* --- 3.5 Social Icons --- */
 .social-links a {
     color: var(--white-color);
-    font-size: 1.6rem;
-    margin: 0 15px;
+    font-size: 1.2rem; /* Giảm cỡ icon xuống một chút cho cân đối */
+    margin: 0 10px;
     transition: transform 0.3s ease, color 0.3s ease;
-    display: inline-block;
+    display: inline-flex; 
+    align-items: center;  
+    gap: 5px;             
 }
 
 .social-links a:hover {
